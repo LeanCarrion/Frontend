@@ -1,0 +1,101 @@
+html {
+    font-family: 'Playfair Display', serif;
+}
+body {
+    margin: 0;
+    background-color: #efefef;
+
+}
+header {
+    background-color: rgb(123, 175, 175);
+    color: white; 
+    padding: 0;
+    margin: 0;
+}
+header nav {
+   margin: 0;
+   padding: 0; 
+}
+
+header ul {
+    font-size: 1rem;
+    text-align: right;
+    background-color: aliceblue;
+    margin: 0;
+    padding: 0;
+    
+}
+header ul li{
+    display: inline-block;
+    font-size: 1rem;
+    margin: 15px;
+    padding: 0;
+    
+}
+header p {
+    font-size: 1 rem;
+    text-align: left;
+}
+header h1 {
+    font-size: 3rem;
+    margin: 0;
+    padding-left: 100px;
+}
+
+.container {
+    width: 400px;
+    margin: 0 auto;
+}
+
+section article {
+    transition: box-shadow 0.3s ease;
+    background-color: #fff;
+    margin: 1rem 0;
+    border-radius: 0.5rem;
+    padding: 0.25rem 0;
+}
+
+section article:hover {
+    box-shadow: 0 0.1rem 0.4rem rgba(0, 0, 0, 0.3);
+}
+section article h2, section article p {
+    margin: 1rem
+}
+
+footer {
+    background-color: #222;
+    padding: 3rem;
+    color:#fff
+}
+
+footer section {
+    float: right;
+}
+
+footer a {
+    color: #fff;
+    text-decoration: none;
+}
+/* .centro {
+    color:black;
+    border-style: solid;
+    border-color: black;
+    border-radius: 8px;
+    border-width: 1px;
+
+}
+#titulo {
+    text-align: center;
+
+}
+.posicion {
+    float: right;
+
+
+}
+#cabeza {
+    background-image: url("img/fondo.jpg");
+    background-size: cover;
+
+}
+ */
